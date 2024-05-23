@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="style" href="./png/font.css">
+  <link rel="stylesheet" href="./png/font.css">
   <title>動態生成表格</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <style>
@@ -28,8 +28,8 @@
     }
     
     th, td {
-      border-top: 5px solid #999;
-      padding: 8px;
+      border-top: 3px solid #ffffff;
+      padding: 7px;
       color: white;
       font-weight: bold;
       font-size: 15px; /* 調整文字大小 */
@@ -38,7 +38,7 @@
       background-color: #2196F3;
       font-style: italic;
       border-left: 0px solid #999;
-      width: 10%;
+      width:1%;
     }
     th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6), th:nth-child(7), th:nth-child(8){
       width: calc(100% / 8);
@@ -117,9 +117,8 @@
           <th>RANK</th>
           <th>TEAM</th>
           
-          <th>B</th>
-          <th>K</th>
-          <th>G</th>
+          <th>SCORE</th>
+          
         </tr>
       </thead>
       <tbody></tbody>
